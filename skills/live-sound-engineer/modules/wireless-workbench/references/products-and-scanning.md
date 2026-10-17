@@ -33,7 +33,7 @@ Rules for file imports:
 - Formats: .csv, .txt, .spa. Native support for WiNRADiO (.35s), TTi (.csv), RF Explorer (.csv), Sennheiser (.csv), Anritsu (.spa), Rohde & Schwarz (.csv).
 - Plain files: no header lines. One reading per line: frequency, comma, level.
 - Minimum step size 25 kHz.
-- Frequency in MHz, level in dBm is the safe form. `scripts/clean_scan.py` produces exactly that.
+- Frequency in MHz, level in dBm is the safe form. `modules/wireless-workbench/scripts/clean_scan.py` produces exactly that.
 
 Common failure modes the script catches:
 - Header rows or metadata from analyser exports (import fails or mis-parses).

@@ -35,12 +35,12 @@ Order of preference: live scan from the show antennas at show time > earlier sca
   - Peak threshold line: peaks above are treated as active transmitters, given a transmitter profile and buffered in the calculation.
   - Peak hold shows the max across selected scans; Additional exclusions shows what both thresholds generate.
 - Only scans selected in the sidebar feed the calculation. Selecting several uses their peak hold.
-- Importing: Scan data section > import icon > File, Hardware, or Scan Library. For a Spectrum Manager, save the scan on the hardware first. For PSM 1000, IR-sync the scan to the transmitter first. External files: run `scripts/clean_scan.py` first (see `products-and-scanning.md`).
+- Importing: Scan data section > import icon > File, Hardware, or Scan Library. For a Spectrum Manager, save the scan on the hardware first. For PSM 1000, IR-sync the scan to the transmitter first. External files: run `modules/wireless-workbench/scripts/clean_scan.py` first (see `modules/wireless-workbench/references/products-and-scanning.md`).
 
 ## 4. Define the spectrum
 
 - TV channels: select occupied channels from the TV database for the location. If the database does not cover the country or looks stale, add manual exclusions from the scan and local knowledge instead.
-- Regulatory exclusions: add manual exclusions for every range not legal at the venue. WWB will not do this for you. Saudi Arabia: `saudi-cst.md`.
+- Regulatory exclusions: add manual exclusions for every range not legal at the venue. WWB will not do this for you. Saudi Arabia: `modules/wireless-workbench/references/saudi-cst.md`.
 - Inclusion groups: restrict channels to ranges (e.g. keep IEMs in one block, mics in another, or confine a band to its licensed slice). WWB 7 can also ignore intermod spacing between frequencies within a group and let you customise coordination order.
 - Compatibility profile per device type: in the coordination workspace select the device header (Ctrl-click for several) > Compatibility tab.
   - Standard: default balance of count and stability.

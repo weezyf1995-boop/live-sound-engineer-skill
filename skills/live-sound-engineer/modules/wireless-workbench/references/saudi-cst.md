@@ -47,6 +47,6 @@ Channel bandwidth 200 kHz per channel (wider on request). Audio links (Article 1
 5. Do not rely on WWB's TV database for Saudi legality. Treat the table as the authority and the scan as the reality check.
 6. Output the licensed frequency list in the format CST asked for, alongside the WWB report.
 
-`scripts/clean_scan.py --flag-ranges 617-652,663-698` reports scan energy in the prohibited ranges, which is useful evidence when something illegal is already transmitting in the venue.
+`modules/wireless-workbench/scripts/clean_scan.py --flag-ranges 617-652,663-698` reports scan energy in the prohibited ranges, which is useful evidence when something illegal is already transmitting in the venue.
 
 This is regulatory information, not legal advice. The licence holder is responsible for compliance; when in doubt, ask CST directly (19966, info@cst.gov.sa).
