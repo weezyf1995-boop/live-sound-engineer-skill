@@ -12,8 +12,8 @@ R1 Remote control software enables d&b devices to be remotely controlled, using 
 
 | Document Type | Version | Date | URL |
 |--------------|---------|------|-----|
-| R1 Release Notes | 3.44.2 | 28.01.2026 | [Product Page](https://www.dbaudio.com/global/en/products/software/r1/) |
-| TI 391 - Effective use of R1 | 1.2 en | - | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti391-1.2-en.pdf) |
+| R1 Release Notes (incl. file compatibility table, firmware minimums) | 3.46.1 | 26.05.2026 | [PDF](https://www.dbaudio.com/assets/products/downloads/software/r1/dbaudio-r1-v3.46.1-release-notes.pdf) |
+| TI 391 - Effective use of R1 (legacy, R1 V1 era) | 1.2 en | 2009 | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti391-1.2-en.pdf) |
 
 **Description:** R1 Remote control software provides enhanced equalization functionalities for d&b amplifiers via an easy-to-use interface.
 
@@ -32,7 +32,7 @@ R1 Remote control software enables d&b devices to be remotely controlled, using 
 
 | Document Type | Version | URL |
 |--------------|---------|-----|
-| Technical Information | 1.5 | [PDF](https://www.dbaudio.com/global/en/products/software/r1/) |
+| Technical Information | 1.5 | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti312-1.5-en.pdf) |
 
 **Description:** Detailed description of the d&b Remote network (CAN-Bus).
 
@@ -44,7 +44,7 @@ R1 Remote control software enables d&b devices to be remotely controlled, using 
 
 | Document Type | Version | URL |
 |--------------|---------|-----|
-| Technical Information | 1.1 | [PDF](https://www.dbaudio.com/global/en/products/software/r1/) |
+| Technical Information | 1.1 | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti310-1.1-en.pdf) |
 
 **Description:** Ethernet networking guide for d&b systems.
 

@@ -69,8 +69,8 @@ This directory contains official manual URLs for professional audio equipment fr
 
 | Product | Document Type | Version | Year | URL |
 |---------|--------------|---------|------|-----|
-| ArrayCalc | Technical Information | 10.9 en | 2023 | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti-385-10.9-en.pdf) |
-| ArrayCalc | Software Download | 12.6.5 | 2026 | [Download](https://www.dbaudio.com/global/en/products/software/arraycalc/) |
+| ArrayCalc | Technical Information | 10.10 en | 2026 | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti-385-10.10-en.pdf) |
+| ArrayCalc | Software Download | 12.8.3 | 2026 | [Download](https://www.dbaudio.com/global/en/products/software/arraycalc/) |
 
 ---
 
@@ -329,7 +329,7 @@ This directory contains official manual URLs for professional audio equipment fr
 
 | Product | Document Type | Version | Year | URL |
 |---------|--------------|---------|------|-----|
-| R1 Remote Control | Release Notes | 3.44.2 | 2026 | [Product Page](https://www.dbaudio.com/global/en/products/software/r1/) |
+| R1 Remote Control | Release Notes | 3.46.1 | 2026 | [PDF](https://www.dbaudio.com/assets/products/downloads/software/r1/dbaudio-r1-v3.46.1-release-notes.pdf) |
 | TI 391 - Effective use of R1 | Technical Information | 1.2 en | - | [PDF](https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti391-1.2-en.pdf) |
 | DS100 OSC Protocol | Protocol Documentation | 1.3.12 | 2026 | [Product Page](https://www.dbaudio.com/global/en/products/software/r1/) |
 | Soundscape Guide Book | Guide Book | 3.0 | 2025 | [Product Page](https://www.dbaudio.com/global/en/products/software/r1/) |

@@ -346,9 +346,9 @@
       "series": "Software",
       "model": "ArrayCalc",
       "document_type": "Technical Information",
-      "official_url": "https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti-385-10.9-en.pdf",
-      "version": "10.9 en",
-      "release_year": "2023",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti-385-10.10-en.pdf",
+      "version": "10.10 en",
+      "release_year": "2026",
       "description": "Comprehensive guide for line array design using ArrayCalc.",
       "tags": [
         "software",
@@ -363,7 +363,7 @@
       "model": "ArrayCalc",
       "document_type": "Software Download",
       "official_url": "https://www.dbaudio.com/global/en/products/software/arraycalc/",
-      "version": "12.6.5",
+      "version": "12.8.3",
       "release_year": "2026",
       "description": "Official download page for ArrayCalc simulation software for Windows and Mac OS X.",
       "tags": [
@@ -736,8 +736,8 @@
       "series": "R1 Software",
       "model": "R1 Remote Control",
       "document_type": "Release Notes",
-      "official_url": "https://www.dbaudio.com/global/en/products/software/r1/",
-      "version": "3.44.2",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/software/r1/dbaudio-r1-v3.46.1-release-notes.pdf",
+      "version": "3.46.1",
       "release_year": "2026",
       "description": "R1 Remote control software for d&b amplifiers. Enables remote control via Ethernet and CAN-Bus.",
       "tags": [
