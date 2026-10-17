@@ -1,0 +1,959 @@
+{
+  "metadata": {
+    "title": "Professional Audio Manuals Directory",
+    "description": "Official manual URLs for professional audio equipment from leading manufacturers",
+    "version": "1.0",
+    "last_updated": "2026-03-24",
+    "total_entries": 56
+  },
+  "categories": {
+    "loudspeakers": {
+      "display_name": "Loudspeaker Systems",
+      "brands": [
+        "D&B Audiotechnik",
+        "L-Acoustics",
+        "Martin Audio",
+        "Meyer Sound"
+      ]
+    },
+    "wireless_systems": {
+      "display_name": "Wireless Systems",
+      "brands": [
+        "Shure",
+        "Sennheiser"
+      ]
+    },
+    "software": {
+      "display_name": "Software & Show Control",
+      "brands": [
+        "d&b audiotechnik",
+        "Figure 53",
+        "Shure"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "SL-Series",
+      "model": "GSL8/GSL12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/sl-series/dbaudio-manual-gsl8-gsl12-1.6-en.pdf",
+      "version": "1.6 en",
+      "release_year": "2026",
+      "description": "Large-scale line array for large-scale sound reinforcement applications. 80\u00b0/120\u00b0 horizontal dispersion.",
+      "tags": [
+        "line-array",
+        "large-format",
+        "touring",
+        "gsl",
+        "sl-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "SL-Series",
+      "model": "KSL8/KSL12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/sl-series/dbaudio-manual-ksl8-ksl12-1.4-en.pdf",
+      "version": "1.4 en",
+      "release_year": "2026",
+      "description": "Compact large-format line array. 80\u00b0/120\u00b0 horizontal dispersion.",
+      "tags": [
+        "line-array",
+        "large-format",
+        "touring",
+        "ksl",
+        "sl-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "SL-Series",
+      "model": "XSL8/XSL12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/sl-series/dbaudio-manual-xsl8-xsl12-1.4-en.pdf",
+      "version": "1.4 en",
+      "release_year": "2026",
+      "description": "Small to medium-scale line array. 80\u00b0/120\u00b0 horizontal dispersion.",
+      "tags": [
+        "line-array",
+        "medium-format",
+        "touring",
+        "xsl",
+        "sl-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "SL-Series",
+      "model": "XSL8/XSL12",
+      "document_type": "Rigging Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/accessories/dbaudio-rigging-manual-xsl-1.5-en.pdf",
+      "version": "1.5 en",
+      "release_year": "2024",
+      "description": "Comprehensive rigging instructions for XSL series arrays",
+      "tags": [
+        "rigging",
+        "xsl",
+        "sl-series",
+        "safety"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "V-Series",
+      "model": "V8/V12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/v-series/dbaudio-manual-v8-v12-1.8-en.pdf",
+      "version": "1.8 en",
+      "release_year": "2022",
+      "description": "Mid-format line array. 80\u00b0/120\u00b0 horizontal dispersion. Frequency response 67Hz-18kHz.",
+      "tags": [
+        "line-array",
+        "mid-format",
+        "touring",
+        "v-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Y-Series",
+      "model": "Y8/Y12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/y-series/dbaudio-manual-y8-y12-1.3-en.pdf",
+      "version": "1.3 en",
+      "release_year": "2022",
+      "description": "Compact line array for small to medium-scale applications.",
+      "tags": [
+        "line-array",
+        "compact",
+        "touring",
+        "y-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Y-Series",
+      "model": "Y8/Y12",
+      "document_type": "Rigging Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/accessories/dbaudio-rigging-manual-y-series-1.6-en.pdf",
+      "version": "1.6 en",
+      "release_year": "2023",
+      "description": "Rigging manual for Y-Series line arrays",
+      "tags": [
+        "rigging",
+        "y-series",
+        "safety"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "J-Series",
+      "model": "J8/J12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/j-series/dbaudio-manual-j8-j12-2.2-en.pdf",
+      "version": "2.2 en",
+      "release_year": "2016",
+      "description": "Heritage line array system. 80\u00b0/120\u00b0 horizontal dispersion.",
+      "tags": [
+        "line-array",
+        "heritage",
+        "touring",
+        "j-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "CL-Series",
+      "model": "CCLi8/CCLi12",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/cl-series/dbaudio-manual-ccli8-ccli12-1.2-en.pdf",
+      "version": "1.2 en",
+      "release_year": "2026",
+      "description": "Installation version of CCL series",
+      "tags": [
+        "line-array",
+        "installation",
+        "cl-series"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "SL-Series Subwoofers",
+      "model": "SL-SUB/SL-GSUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/sl-series/dbaudio-manual-sl-sub-sl-gsub-1.3-en.pdf",
+      "version": "1.3 en",
+      "release_year": "2018",
+      "description": "Cardioid subwoofer for SL-Series. 3x21 drivers. Max SPL: 144dB.",
+      "tags": [
+        "subwoofer",
+        "cardioid",
+        "large-format",
+        "sl-series",
+        "21-inch"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "V-Series Subwoofers",
+      "model": "V-SUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/v-series/dbaudio-manual-v-sub-1.5-en.pdf",
+      "version": "1.5 en",
+      "release_year": "2022",
+      "description": "Cardioid subwoofer for V-Series. 1x18 + 1x12 drivers.",
+      "tags": [
+        "subwoofer",
+        "cardioid",
+        "v-series",
+        "18-inch"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Y-Series Subwoofers",
+      "model": "Y-SUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/y-series/dbaudio-manual-y-sub-1.3-en.pdf",
+      "version": "1.3 en",
+      "release_year": "2023",
+      "description": "Cardioid subwoofer for Y-Series. 1x18 + 1x12 drivers.",
+      "tags": [
+        "subwoofer",
+        "cardioid",
+        "y-series",
+        "18-inch"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "J-Series Subwoofers",
+      "model": "J-SUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/j-series/dbaudio-manual-j-sub-2.2-en.pdf",
+      "version": "2.2 en",
+      "release_year": "2016",
+      "description": "Cardioid subwoofer for J-Series. 3x18 drivers.",
+      "tags": [
+        "subwoofer",
+        "cardioid",
+        "j-series",
+        "18-inch",
+        "heritage"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "B-Series",
+      "model": "B22-SUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/b-subwoofers/dbaudio-manual-b22-sub-1.3-en.pdf",
+      "version": "1.3 en",
+      "release_year": "2025",
+      "description": "Dual 18 bandpass horn subwoofer. Max SPL: 143dB (with D80).",
+      "tags": [
+        "subwoofer",
+        "bandpass",
+        "dual-18-inch"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "B-Series",
+      "model": "B12-SUB",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/b-subwoofers/dbaudio-manual-b12-sub-1.2-en.pdf",
+      "version": "1.2 en",
+      "release_year": "2026",
+      "description": "Cardioid subwoofer with 1x15 front + 1x10 rear drivers.",
+      "tags": [
+        "subwoofer",
+        "cardioid",
+        "15-inch"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "D-Series Amplifiers",
+      "model": "D80",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/electronics/dbaudio-manual-d80-1.14-en.pdf",
+      "version": "1.14 en",
+      "release_year": "2019",
+      "description": "4-channel Class D amplifier. 4x2600W @ 4. DSP with ArrayProcessing, LoadMatch.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "touring",
+        "d80"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "D-Series Amplifiers",
+      "model": "D40",
+      "document_type": "Reference Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/electronics/dbaudio-reference-manual-d40-1.7-en.pdf",
+      "version": "1.7 en",
+      "release_year": "2025",
+      "description": "Complete reference manual for D40 amplifier with Milan certification.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "milan",
+        "d40"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "D-Series Amplifiers",
+      "model": "D20",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/electronics/dbaudio-manual-d20-1.9-en.pdf",
+      "version": "1.9 en",
+      "release_year": "2019",
+      "description": "4-channel Class D amplifier with ArrayProcessing and LoadMatch.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "d20"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Installation Amplifiers",
+      "model": "10D/30D",
+      "document_type": "User Manual",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/electronics/dbaudio-manual-10d-30d-1.12-en.pdf",
+      "version": "1.12 en",
+      "release_year": "2021",
+      "description": "Installation amplifiers with Euroblock connectors.",
+      "tags": [
+        "amplifier",
+        "installation",
+        "euroblock",
+        "10d",
+        "30d"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Software",
+      "model": "ArrayCalc",
+      "document_type": "Technical Information",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti-385-10.9-en.pdf",
+      "version": "10.9 en",
+      "release_year": "2023",
+      "description": "Comprehensive guide for line array design using ArrayCalc.",
+      "tags": [
+        "software",
+        "simulation",
+        "line-array-design",
+        "arraycalc"
+      ]
+    },
+    {
+      "brand": "D&B Audiotechnik",
+      "series": "Software",
+      "model": "ArrayCalc",
+      "document_type": "Software Download",
+      "official_url": "https://www.dbaudio.com/global/en/products/software/arraycalc/",
+      "version": "12.6.5",
+      "release_year": "2026",
+      "description": "Official download page for ArrayCalc simulation software for Windows and Mac OS X.",
+      "tags": [
+        "software",
+        "download",
+        "windows",
+        "macos",
+        "arraycalc"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "K Series",
+      "model": "K1",
+      "document_type": "User Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-k1.pdf",
+      "version": "6.0",
+      "release_year": "2021",
+      "description": "Long throw professional audio loudspeaker, 3-way active full-range WST enclosure.",
+      "tags": [
+        "line-array",
+        "large-format",
+        "wst",
+        "k1",
+        "touring"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "K Series",
+      "model": "K2",
+      "document_type": "User Manual",
+      "official_url": "https://www.10kused.com/wp-content/uploads/2018/01/k2_ks28_um_en.pdf",
+      "version": "4.0",
+      "release_year": "2018",
+      "description": "Professional audio loudspeaker, 3-way active full-range WST enclosure.",
+      "tags": [
+        "line-array",
+        "large-format",
+        "wst",
+        "k2",
+        "touring"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "K Series",
+      "model": "K3",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-k3.pdf",
+      "version": "4.1",
+      "release_year": "2022",
+      "description": "Long throw line source, 2-way active WST enclosure.",
+      "tags": [
+        "line-array",
+        "medium-format",
+        "wst",
+        "k3"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "K Series",
+      "model": "Kara II",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.cpl.tech/wp-content/uploads/2022/05/L-Acoustic-KARA-II-User-Guide.pdf",
+      "version": "3.1",
+      "release_year": "2021",
+      "description": "Long throw concert sound loudspeaker, 2-way active WST enclosure.",
+      "tags": [
+        "line-array",
+        "medium-format",
+        "wst",
+        "kara",
+        "touring"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Syva Series",
+      "model": "Syva",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-syva.pdf",
+      "version": "1.0",
+      "release_year": "2022",
+      "description": "Colinear source system, 2-way passive enclosure.",
+      "tags": [
+        "colinear",
+        "installation",
+        "syva",
+        "design"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Syva Series",
+      "model": "Syva",
+      "document_type": "Rigging Manual",
+      "official_url": "https://www.novelty.fr/wp-content/uploads/downloaded/downloads/materiel_manuels/l-acoustics_syva-rigging-manual.pdf",
+      "version": "1.1",
+      "release_year": "2017",
+      "description": "Rigging procedures for Syva system.",
+      "tags": [
+        "rigging",
+        "syva",
+        "safety"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "X Series",
+      "model": "X8",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-x8.pdf",
+      "version": "1.0",
+      "release_year": "2021",
+      "description": "2-way passive coaxial enclosure, 8 LF + 1.5 HF.",
+      "tags": [
+        "point-source",
+        "coaxial",
+        "8-inch",
+        "x8",
+        "installation"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "X Series",
+      "model": "X12",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-x12.pdf",
+      "version": "2.0",
+      "release_year": "2021",
+      "description": "2-way passive coaxial enclosure, 12 LF + 3 HF.",
+      "tags": [
+        "point-source",
+        "coaxial",
+        "12-inch",
+        "x12",
+        "installation"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "X Series",
+      "model": "X15 HiQ",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-x15hiq.pdf",
+      "version": "2.0",
+      "release_year": "2021",
+      "description": "Reference stage monitor, 2-way passive coaxial.",
+      "tags": [
+        "stage-monitor",
+        "coaxial",
+        "15-inch",
+        "x15",
+        "monitor"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "A Series",
+      "model": "A10 Wide/Focus",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-a10.pdf",
+      "version": null,
+      "release_year": null,
+      "description": "Medium throw concert loudspeaker, constant curvature WST.",
+      "tags": [
+        "line-array",
+        "constant-curvature",
+        "wst",
+        "a10",
+        "medium-throw"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "A Series",
+      "model": "A15 Wide/Focus",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-a15.pdf",
+      "version": "3.1",
+      "release_year": "2022",
+      "description": "Medium throw concert loudspeaker, constant curvature WST.",
+      "tags": [
+        "line-array",
+        "constant-curvature",
+        "wst",
+        "a15",
+        "medium-throw"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Subwoofers",
+      "model": "KS28",
+      "document_type": "Owner's Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-ks28.pdf",
+      "version": "1.0",
+      "release_year": "2022",
+      "description": "Reference subwoofer, 2x18.",
+      "tags": [
+        "subwoofer",
+        "18-inch",
+        "ks28",
+        "reference"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Subwoofers",
+      "model": "SB18",
+      "document_type": "User Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-sb18.pdf",
+      "version": "6.0",
+      "release_year": "2021",
+      "description": "High power compact subwoofer, 1x18.",
+      "tags": [
+        "subwoofer",
+        "18-inch",
+        "sb18",
+        "compact"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Subwoofers",
+      "model": "SB15m",
+      "document_type": "User Manual",
+      "official_url": "https://www.avc-group.com/assets/products/L-Acoustics/pdf/lacoustics-um-sb15m.pdf",
+      "version": "4.1",
+      "release_year": null,
+      "description": "High power compact subwoofer, 1x15.",
+      "tags": [
+        "subwoofer",
+        "15-inch",
+        "sb15m",
+        "compact"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "LA Amplified Controllers",
+      "model": "LA12X",
+      "document_type": "User Manual",
+      "official_url": "https://static.audiobizz.eu/files/pdf_handleiding/LA01255.pdf",
+      "version": "6.0",
+      "release_year": "2019",
+      "description": "4x4 amplified controller, 4x3300W at 2.7.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "la12x",
+        "high-power"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "LA Amplified Controllers",
+      "model": "LA8",
+      "document_type": "User Manual",
+      "official_url": "https://www.alfazvuk.ru/assets/images/la8_um_en.pdf",
+      "version": "15.1",
+      "release_year": "2018",
+      "description": "4x4 amplified controller with DSP.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "la8",
+        "network"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "LA Amplified Controllers",
+      "model": "LA4X",
+      "document_type": "User Manual",
+      "official_url": "https://static.audiobizz.eu/files/pdf_handleiding/LA01205.pdf",
+      "version": "12.0",
+      "release_year": "2019",
+      "description": "4x4 amplified controller, 4x1000W at 4.",
+      "tags": [
+        "amplifier",
+        "4-channel",
+        "dsp",
+        "la4x"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "LA Amplified Controllers",
+      "model": "Preset Guide",
+      "document_type": "Owner's Manual",
+      "official_url": "https://shop.ccisolutions.com/StoreFront/jsp/pdf/LAC-LA12XUS_presetGuide.pdf",
+      "version": "18.0",
+      "release_year": "2022",
+      "description": "Comprehensive preset guide for LA2Xi, LA4, LA4X, LA8, LA12X.",
+      "tags": [
+        "preset-guide",
+        "reference",
+        "la-series"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Soundvision Software",
+      "model": "Soundvision",
+      "document_type": "Software Page",
+      "official_url": "https://www.l-acoustics.com/products/soundvision/",
+      "version": null,
+      "release_year": null,
+      "description": "3D acoustical modeling and simulation software.",
+      "tags": [
+        "software",
+        "simulation",
+        "3d-modeling",
+        "soundvision"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Soundvision Software",
+      "model": "CATT Files",
+      "document_type": "Simulation Data",
+      "official_url": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/GLOBAL/EN/CATT%20Files/soundvision_catt_december_2019.zip",
+      "version": null,
+      "release_year": "2019",
+      "description": "CATT acoustic simulation data files.",
+      "tags": [
+        "catt",
+        "simulation",
+        "acoustic-data"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Soundvision Software",
+      "model": "EASE Files",
+      "document_type": "Simulation Data",
+      "official_url": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/GLOBAL/EN/EASE%20Files/GLL-Soundvision_EASE_v15.0.zip",
+      "version": "15.0",
+      "release_year": null,
+      "description": "EASE acoustic simulation data files.",
+      "tags": [
+        "ease",
+        "simulation",
+        "acoustic-data"
+      ]
+    },
+    {
+      "brand": "L-Acoustics",
+      "series": "Soundvision Software",
+      "model": "LA Network Manager",
+      "document_type": "Software",
+      "official_url": "https://demo-cockpit.l-acoustics.com/",
+      "version": "2026.1",
+      "release_year": "2026",
+      "description": "Real-time monitoring and control software for LA amplified controllers.",
+      "tags": [
+        "control-software",
+        "monitoring",
+        "la-network"
+      ]
+    },
+    {
+      "brand": "d&b audiotechnik",
+      "series": "R1 Software",
+      "model": "R1 Remote Control",
+      "document_type": "Release Notes",
+      "official_url": "https://www.dbaudio.com/global/en/products/software/r1/",
+      "version": "3.44.2",
+      "release_year": "2026",
+      "description": "R1 Remote control software for d&b amplifiers. Enables remote control via Ethernet and CAN-Bus.",
+      "tags": [
+        "software",
+        "remote-control",
+        "r1",
+        "amplifier-control",
+        "equalization"
+      ]
+    },
+    {
+      "brand": "d&b audiotechnik",
+      "series": "R1 Software",
+      "model": "TI 391 - Effective use of R1",
+      "document_type": "Technical Information",
+      "official_url": "https://www.dbaudio.com/assets/products/downloads/ti/dbaudio-technical-information-ti391-1.2-en.pdf",
+      "version": "1.2 en",
+      "release_year": null,
+      "description": "Technical Information paper explaining how to create an R1 project that is easy to operate and quick to adapt.",
+      "tags": [
+        "technical-information",
+        "r1",
+        "guide",
+        "project-design"
+      ]
+    },
+    {
+      "brand": "d&b audiotechnik",
+      "series": "Soundscape",
+      "model": "DS100 OSC Protocol",
+      "document_type": "Protocol Documentation",
+      "official_url": "https://www.dbaudio.com/global/en/products/software/r1/",
+      "version": "1.3.12",
+      "release_year": "2026",
+      "description": "OSC protocol documentation for DS100 Signal Engine.",
+      "tags": [
+        "osc",
+        "protocol",
+        "ds100",
+        "soundscape",
+        "spatial-audio"
+      ]
+    },
+    {
+      "brand": "d&b audiotechnik",
+      "series": "Soundscape",
+      "model": "Soundscape Guide Book",
+      "document_type": "Guide Book",
+      "official_url": "https://www.dbaudio.com/global/en/products/software/r1/",
+      "version": "3.0",
+      "release_year": "2025",
+      "description": "Comprehensive guide for d&b Soundscape systems.",
+      "tags": [
+        "soundscape",
+        "guide",
+        "spatial-audio"
+      ]
+    },
+    {
+      "brand": "Figure 53",
+      "series": "QLab",
+      "model": "QLab 5",
+      "document_type": "Reference Manual",
+      "official_url": "https://qlab.app/docs/QLab_5_Reference_Manual.pdf",
+      "version": "5.4.11",
+      "release_year": "2025",
+      "description": "Comprehensive reference manual for QLab 5 live media playback and show control software.",
+      "tags": [
+        "software",
+        "show-control",
+        "playback",
+        "theatrical",
+        "qlab5",
+        "macos"
+      ]
+    },
+    {
+      "brand": "Figure 53",
+      "series": "QLab",
+      "model": "QLab 5 Online Documentation",
+      "document_type": "Online Manual",
+      "official_url": "https://qlab.app/docs/v5/",
+      "version": null,
+      "release_year": "2026",
+      "description": "Online documentation for QLab 5. Updated January 26, 2026.",
+      "tags": [
+        "software",
+        "show-control",
+        "playback",
+        "theatrical",
+        "qlab5",
+        "online-docs"
+      ]
+    },
+    {
+      "brand": "Figure 53",
+      "series": "QLab",
+      "model": "QLab 4",
+      "document_type": "Reference Manual",
+      "official_url": "https://qlab.app/docs/QLab_4_Reference_Manual.pdf",
+      "version": "4.7",
+      "release_year": "2024",
+      "description": "Complete reference manual for QLab 4 including Audio, Video, Lighting, and Show Control features.",
+      "tags": [
+        "software",
+        "show-control",
+        "playback",
+        "theatrical",
+        "qlab4",
+        "legacy"
+      ]
+    },
+    {
+      "brand": "Figure 53",
+      "series": "QLab",
+      "model": "QLab 4 Online Documentation",
+      "document_type": "Online Manual",
+      "official_url": "https://qlab.app/docs/v4/",
+      "version": null,
+      "release_year": null,
+      "description": "Online documentation for QLab 4.",
+      "tags": [
+        "software",
+        "show-control",
+        "playback",
+        "theatrical",
+        "qlab4",
+        "online-docs"
+      ]
+    },
+    {
+      "brand": "Figure 53",
+      "series": "QLab",
+      "model": "QLab 3",
+      "document_type": "Reference Manual",
+      "official_url": "https://qlab.app/docs/QLab_3_Reference_Manual.pdf",
+      "version": "3.2.12",
+      "release_year": "2018",
+      "description": "Reference manual for QLab 3.",
+      "tags": [
+        "software",
+        "show-control",
+        "playback",
+        "theatrical",
+        "qlab3",
+        "legacy"
+      ]
+    },
+    {
+      "brand": "Shure",
+      "series": "Wireless Workbench",
+      "model": "Wireless Workbench 7",
+      "document_type": "Quick Start Guide",
+      "official_url": "https://pubs.shure.com/view/quickstart/Wireless-Workbench/en-US.pdf",
+      "version": "5.3 (2024-1)",
+      "release_year": "2024",
+      "description": "How to download, set up, and use Shure's Wireless Workbench frequency coordination and management software.",
+      "tags": [
+        "software",
+        "rf-coordination",
+        "wireless-management",
+        "wwb7",
+        "quick-start"
+      ]
+    },
+    {
+      "brand": "Shure",
+      "series": "Wireless Workbench",
+      "model": "Wireless Workbench 7 Online Help",
+      "document_type": "Online Documentation",
+      "official_url": "https://content-files.shure.com/Pubs/WWB/en-US/index.html",
+      "version": null,
+      "release_year": null,
+      "description": "Comprehensive online help covering all aspects of Wireless Workbench including frequency coordination, scanning, and device management.",
+      "tags": [
+        "software",
+        "rf-coordination",
+        "wireless-management",
+        "wwb7",
+        "online-help"
+      ]
+    },
+    {
+      "brand": "Shure",
+      "series": "Wireless Workbench",
+      "model": "Wireless Workbench Mobile",
+      "document_type": "User Guide",
+      "official_url": "https://www.shure.com/en-US/docs/guide/wireless-workbench-mobile",
+      "version": null,
+      "release_year": "2023",
+      "description": "Manual for the Shure Wireless Workbench Mobile application (WWB Mobile app) for iOS and Android.",
+      "tags": [
+        "mobile-app",
+        "ios",
+        "android",
+        "wwb-mobile",
+        "rf-coordination"
+      ]
+    },
+    {
+      "brand": "Shure",
+      "series": "Wireless Workbench",
+      "model": "Wireless Workbench Download",
+      "document_type": "Software Download",
+      "official_url": "https://www.shure.com/en-US/products/software/wwb",
+      "version": "7.8.1",
+      "release_year": "2026",
+      "description": "Free download for macOS and Windows. Frequency coordination and wireless system management.",
+      "tags": [
+        "software",
+        "download",
+        "free",
+        "mac",
+        "windows",
+        "wwb7"
+      ]
+    }
+  ]
+}
