@@ -1,14 +1,14 @@
 # Prep-mode workflow (R1 V3)
 
-Contents: 0 Grill first · 1 Install and versions · 2 Network · 3 Remote IDs · 4 Open the project · 5 Go online · 6 Firmware · 7 System check and Array verification · 8 ArrayProcessing slots and THC · 9 Tuning controls · 10 Protect the show · 11 Save and hand-off
+Contents: 0 Harvest and default · 1 Install and versions · 2 Network · 3 Remote IDs · 4 Open the project · 5 Go online · 6 Firmware · 7 System check and Array verification · 8 ArrayProcessing slots and THC · 9 Tuning controls · 10 Protect the show · 11 Save and hand-off
 
 R1 V3, current 3.46.1 (26 May 2026). The detailed manual is the in-app Help (F1). There's no public V3 manual PDF, so exact click paths for project creation and device matching aren't published. Where this file gives a view or tab name, it comes from the R1 release notes or amp manuals. If the user's screen differs, trust the screen and say so.
 
 Each step has a **Why** line. Keep it in your answer when you're working with a junior.
 
-## 0. Grill first
+## 0. Harvest and default
 
-One question per message, highest impact first, each with a "why" and a recommended default. Harvest answers from anything already supplied (the .dbpr, rack labels, a network sheet). "Skip" turns the rest into labelled assumptions.
+When you're driving R1 (the default when the user hands over the job), fill these from the .dbpr, what R1 discovers on the network, rack labels and the conversation, and use the default for anything still unknown. Don't ask; label assumptions in the hand-off. Ask one question per message only if the user wants to be walked through it.
 
 | # | Question | Why | Default |
 |---|---|---|---|
@@ -73,7 +73,7 @@ One question per message, highest impact first, each with a "why" and a recommen
 
 **Why:** online is when R1 starts writing to real amps. Settings in the project get pushed to the hardware.
 
-- **HARD STOP:** before going online on a system that's already running or already tuned, confirm with the system tech which side wins: the project or the amps.
+- Before going online on a system that's already running or already tuned, ask once which side wins: the project or the amps. A fresh rig you were handed: go online.
 - Then go online. Watch for the ID conflict and Device conflict dialogs, and devices stuck in "found but not connected".
 - Wink (flashes the amp display) to check a device is the one you think it is. Reverse Wink: press Mode on a DN1/DN2/UxN and R1 highlights it.
 - Not everything shows up → `modules/r1/references/show-mode-playbooks.md`, "Amps not found".

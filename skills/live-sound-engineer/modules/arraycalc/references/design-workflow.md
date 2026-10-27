@@ -11,7 +11,7 @@ Each step has a **Why** line. Keep it in your answer when you're working with a 
 - Version: current line is 12.8.x (07/2026). Windows 10+ with Vulkan, macOS 12+ with Metal. Old Windows PC without Vulkan → ArrayCalc 11.8.1 (OpenGL) from the d&b software archive.
 - Files: project **.dbpr** (shared with R1), venue **.dbacv**, rigger app export **.dbev**. Older: .dbac2 / .dbac.
 - Compatibility: files only open in the same or newer software. ArrayCalc 12.8.x files need R1 ≥ 3.46. 12.4 → 3.44, 12.2 → 3.42, 12.0 → 3.40, 11.8 → 3.38. Check what R1 version the system tech runs **before** you design.
-- Run the grilling intake (`modules/arraycalc/references/grilling-intake.md`) and `modules/arraycalc/scripts/design_brief.py` first.
+- Fill the intake (`modules/arraycalc/references/grilling-intake.md`) from the givens and defaults, and run `modules/arraycalc/scripts/design_brief.py` first.
 
 ## 1. Venue
 
