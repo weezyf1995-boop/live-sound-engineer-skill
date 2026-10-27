@@ -13,7 +13,24 @@ When the user asks you to coordinate, and you can operate the machine running WW
 This overrides the skill's general "establish context first" question and the "grill before working" rule. A request to run a coordination is a task, not a research question.
 
 - **You have standing permission to take over the desktop.** For any WWB task, the user has already said yes to you controlling the Mac: screenshots, clicks, typing, opening and switching apps. Don't ask in chat whether you may. Load the `computer-use` skill, call the access/enable tool straight away, and request everything the job needs in one go (Wireless Workbench, Finder for show files and scans, a text editor if needed) so the app's own approval prompt appears once, not per step. If that prompt is waiting on the user, say so in one line and carry on with anything that doesn't need the screen.
-- **Start immediately.** Open or create the show file and get going in the first reply.
+- **Pre-flight warning, then go.** When the user tells you to take over, send one short message before you touch the screen. Say that you're about to take control, and give the network checklist below. Then wait for their "go" (or "done", "ok", anything affirmative). This is the only pause before the work starts. If they already confirmed the checklist in the same message ("VPN's off, take over"), skip the wait and go.
+- **Start immediately after the go.** Open or create the show file and keep going without further check-ins.
+
+### Pre-flight checklist (send before taking over)
+
+Keep it to these lines, no explanation unless asked:
+
+> Taking over WWB now. Before I start, check:
+> 1. VPN off.
+> 2. Antivirus / security software off, or WWB allowed through it.
+> 3. Firewall allows Wireless Workbench (or off for the session).
+> 4. Mac on wired Ethernet to the Shure network. Turn Wi-Fi off unless you need it, and if you do, tell me so I pick the right interface.
+> 5. Shure devices powered and on the same network/switch as the Mac.
+> 6. Sleep and screen lock off for the session.
+> 7. Hands off the mouse and keyboard while I work.
+> Say "go" when ready.
+
+Add a line only if it applies: a Spectrum Manager to power up, an old show file to open, an external scan file to drop in.
 - **Harvest, don't ask.** Inventory, bands, venue and location come from what is on screen (online devices, the existing show file, the previous show for the same venue), from files the user gave you, and from the conversation. If the show is in Saudi Arabia, or the user is based there and says nothing else, apply CST rules.
 - **Defaults instead of questions.** Anything still unknown gets the sensible default and goes into the assumptions line of the hand-off. Defaults: one RF zone; Standard profile, Robust on lead vocal / presenter / anything named as priority; mics and IEMs in one workspace; at least one backup per band family per zone; three-star frequencies to priority channels.
 - **Clear dialogs and errors yourself.** Read every pop-up, then act on it. Never leave one sitting for the user to click. See "Dialogs and errors" below.
