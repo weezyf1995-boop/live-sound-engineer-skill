@@ -2,7 +2,7 @@
 
 Contents: 1 Show file · 2 Inventory · 3 Scan · 4 Define spectrum · 5 Calculate and analyse · 6 Backups · 7 Assign and deploy · 8 On-site merge · 9 Hand-off · Finding more frequencies
 
-Menu paths are WWB 7. Preferences live under Tools > Preferences on Windows and Wireless Workbench > Preferences on macOS. If the user's version shows something different, trust their screen and say so.
+Menu paths are WWB 7. Preferences live under Tools > Preferences on Windows and Wireless Workbench > Preferences on macOS. If the screen shows something different, trust the screen, adapt, and note it in the hand-off.
 
 ## 1. Show file
 
@@ -20,7 +20,7 @@ Every transmitting channel goes in, including ones WWB cannot control.
   - ULX-D: Transmission mode HD for high density. Output power becomes 1 mW after resync.
   - ULX / SLX: pick the master list variant if offered.
 - Third-party gear: use the built-in third-party profiles; build a custom equipment profile only if none exists, and send it with the show pack.
-- Ask explicitly: IEMs? Guest or support act systems? Broadcast, comms, talkback, venue house systems? Each one left out is uncalculated IM.
+- Check for IEMs, guest or support act systems, broadcast, comms, talkback and venue house systems in everything available (screen, old show file, conversation). Add what you find. Don't stop to ask about the rest; list possible untracked transmitters in the hand-off assumptions. Each one left out is uncalculated IM.
 - Naming: match the console patch and the RF plot (e.g. "VOX 1 – ADX2"). Names survive into reports and deploy screens.
 
 ## 3. Scan
@@ -89,7 +89,7 @@ Order of preference: live scan from the show antennas at show time > earlier sca
 
 ## Finding more frequencies
 
-Try in this order, saying which step solved it:
+Work down this list yourself without asking; note in the hand-off which step solved it:
 
 1. Remove anything in the workspace that is not actually transmitting at this show.
 2. Split by RF zone if areas are genuinely isolated.
