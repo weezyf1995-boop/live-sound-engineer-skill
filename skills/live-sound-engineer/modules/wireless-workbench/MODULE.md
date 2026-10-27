@@ -4,7 +4,7 @@ Part of the live-sound-engineer skill. Load this module when the task involves S
 
 All paths below are relative to the skill root.
 
-Shure Wireless Workbench 7 (release line 7.x). The job is a frequency plan that survives the show, and fast fixes when it doesn't.
+**The user runs Wireless Workbench 6** (6.15.x). Default to WWB 6 menu names and follow `modules/wireless-workbench/references/wwb6-workflow.md`. Check the title bar when you take over: only if it says 7 use the WWB 7 paths in `coordination-workflow.md`. Never hunt for a WWB 7 control on a WWB 6 screen; if a control isn't there, adapt to what is. The job is a frequency plan that survives the show, and fast fixes when it doesn't.
 
 ## Operating mode: you drive WWB, start to finish
 
@@ -27,7 +27,8 @@ Keep it to these lines, no explanation unless asked:
 > 4. Mac on wired Ethernet to the Shure network. Turn Wi-Fi off unless you need it, and if you do, tell me so I pick the right interface.
 > 5. Shure devices powered and on the same network/switch as the Mac.
 > 6. Sleep and screen lock off for the session.
-> 7. Hands off the mouse and keyboard while I work.
+> 7. Show mics, bodypacks and IEM transmitters off for the scan; anything else that will transmit during the show (video walls, comms) on.
+> 8. Hands off the mouse and keyboard while I work.
 > Say "go" when ready.
 
 Add a line only if it applies: a Spectrum Manager to power up, an old show file to open, an external scan file to drop in.
@@ -58,6 +59,7 @@ Read the whole dialog. Then:
 - **Merge options**: push Wireless Workbench to the hardware.
 - **Deploy confirmation**: confirm, unless stop rule 2 applies.
 - **Network interface selection**: pick the interface the Shure devices are on (wired Ethernet over Wi-Fi), then check devices appear.
+- **Deploy to Inventory** confirmation window: OK, then Close.
 - **Calculation could not find all frequencies**: work the "Finding more frequencies" ladder.
 - **Device offline / not found during deploy**: deploy the rest, then troubleshoot or add the device to the hand-tune list.
 - **Firmware mismatch or update offer**: decline / not now. Carry on if WWB still controls the device; otherwise list it.
@@ -83,15 +85,15 @@ Apply these without asking; they shape what you do, not what you ask.
 
 ## Run order
 
-1. Show file: venue, location, RF zones. Save.
-2. Inventory: online devices, plus virtual devices for anything known but not on the network. Correct model, band, Tx profile or transmission mode.
-3. Scan: from show antennas where possible; set exclusion and peak thresholds.
-4. Spectrum: TV channels, regulatory exclusions (CST in Saudi), inclusion groups, compatibility profiles.
-5. Calculate, analyse, lock, add backups.
-6. Assign (priority channels on three-star frequencies) and deploy.
-7. Merge virtual devices with hardware. Export a show pack. Hand off.
+1. Network check (Flash All Devices) and inventory. Save.
+2. Backups on in Preferences.
+3. Load all inventory frequencies into the Coordination Workspace; drag priority channels to the top.
+4. Scan, set thresholds, add CST and other manual exclusions.
+5. Lock anything live, Calculate, Analyze manual picks.
+6. Assign and Deploy, priority channels on the best rank, Deploy to Inventory.
+7. Save the show file. Hand off.
 
-Full menu paths: `modules/wireless-workbench/references/coordination-workflow.md`.
+WWB 6 menu paths: `modules/wireless-workbench/references/wwb6-workflow.md`. WWB 7: `coordination-workflow.md`.
 
 ## At a gig, not driving WWB
 
@@ -101,7 +103,8 @@ If the user is mid-show and asking rather than handing over (something just drop
 
 Read only the one the task needs.
 
-- `modules/wireless-workbench/references/coordination-workflow.md`: exact WWB 7 menu paths for every step, compatibility profiles, backups, show files vs show packs, merging devices, finding more frequencies.
+- `modules/wireless-workbench/references/wwb6-workflow.md`: **default.** WWB 6 menu paths, coordination order, Deploy to Inventory.
+- `modules/wireless-workbench/references/coordination-workflow.md`: WWB 7 menu paths for every step, compatibility profiles, backups, show files vs show packs, merging devices, finding more frequencies.
 - `modules/wireless-workbench/references/show-mode-playbooks.md`: dropout triage, interference events, devices not discovered, ShowLink failures.
 - `modules/wireless-workbench/references/products-and-scanning.md`: product families and WWB support, Spectrum Manager roles, scan file formats and import rules.
 - `modules/wireless-workbench/references/saudi-cst.md`: CST PMSE bands, power limits, licensing lead time, prohibited ranges.

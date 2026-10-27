@@ -1,5 +1,7 @@
 # Prep-mode coordination workflow (WWB 7)
 
+The user runs WWB 6: use `wwb6-workflow.md` for menu paths. This file is for WWB 7 and for the concepts behind each step.
+
 Contents: 1 Show file · 2 Inventory · 3 Scan · 4 Define spectrum · 5 Calculate and analyse · 6 Backups · 7 Assign and deploy · 8 On-site merge · 9 Hand-off · Finding more frequencies
 
 Menu paths are WWB 7. Preferences live under Tools > Preferences on Windows and Wireless Workbench > Preferences on macOS. If the screen shows something different, trust the screen, adapt, and note it in the hand-off.
