@@ -13,7 +13,7 @@ Tool-specific workflows sit under it as modules. Claude loads a module only when
 | Wireless Workbench | Shure WWB 7: frequency coordination, show files, scan cleaning (`clean_scan.py`), Spectrum Managers, show-mode playbooks, Saudi CST legality | Ready |
 | ArrayCalc | d&b ArrayCalc V12: grilling intake, full design workflow, SUB arrays and alignment, ArrayProcessing, d&b system/amp/rigging tables, on-site playbooks, design brief script (`design_brief.py`) | Ready |
 | R1 | d&b R1 V3: network and Remote IDs, opening ArrayCalc projects, going online, firmware, System check / Array verification, AP slots and THC, show-mode amp fixes | Ready |
-| Allen & Heath Qu | Qu-5/6/7 and Qu-MixPad: connecting the app, SLink/DX/Dante/USB I/O, output patch, signal-generator tests, no-audio-at-the-PA elimination order | Ready |
+| Console Troubleshooting | No audio at the PA: source-to-amp elimination order, signal-generator tests, hard stops for live masters; brand references: Allen & Heath Qu-5/6/7 and Qu-MixPad | Ready |
 
 ## Layout
 
@@ -26,7 +26,7 @@ skills/live-sound-engineer/
     ├── wireless-workbench/  MODULE.md, references/, scripts/clean_scan.py
     ├── arraycalc/           MODULE.md, references/, scripts/design_brief.py
     ├── r1/                  MODULE.md, references/
-    └── allen-heath-qu/      MODULE.md
+    └── console-troubleshooting/  MODULE.md, references/allen-heath-qu.md
 ```
 
 ## Install

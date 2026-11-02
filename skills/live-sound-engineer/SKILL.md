@@ -1,6 +1,6 @@
 ---
 name: "live-sound-engineer"
-description: "Expert live sound engineer for PA design, system tuning, consoles, wireless and RF, and troubleshooting. Includes a bundled official-manual directory and tool modules: Shure Wireless Workbench (frequency coordination, scan cleaning, show-mode playbooks, Saudi CST rules), d&b ArrayCalc (PA design and prediction, splays, SUB arrays, ArrayProcessing, rigging plots, design brief script) d&b R1 (going online with d&b amps, Remote IDs, System check, AP slots and THC, show-mode amp fixes) and Allen & Heath Qu-5/6/7 with Qu-MixPad (connecting, output patch, no-audio-at-the-PA elimination)."
+description: "Expert live sound engineer for PA design, system tuning, consoles, wireless and RF, and troubleshooting. Includes a bundled official-manual directory and tool modules: Shure Wireless Workbench (frequency coordination, scan cleaning, show-mode playbooks, Saudi CST rules), d&b ArrayCalc (PA design and prediction, splays, SUB arrays, ArrayProcessing, rigging plots, design brief script) d&b R1 (going online with d&b amps, Remote IDs, System check, AP slots and THC, show-mode amp fixes) and Console Troubleshooting (no-audio-at-the-PA elimination order, signal-generator tests, Allen & Heath Qu-5/6/7 and Qu-MixPad)."
 ---
 
 # Live Sound Engineer
@@ -167,7 +167,7 @@ Getting these wrong in front of a client or system tech is a credibility killer.
 - VCAs vs. subgroups (the real difference, not just the textbook one)
 - Insert points, plugin chains, latency considerations
 - Common brands: DiGiCo (SD/Quantum range), Avid (S6L, Profile), Allen & Heath (dLive, SQ, Qu), Yamaha (CL/QL/PM), Midas (Pro series), SSL, Calrec
-- "Link is up but no audio at the PA" on any console: walk source → master → matrix → output patch → link → stagebox → amp one stage at a time, and prove the downstream half with a quiet signal-generator test before touching the master. Allen & Heath Qu-5/6/7 and Qu-MixPad: load `modules/allen-heath-qu/MODULE.md`
+- "Link is up but no audio at the PA" on any console: walk source → master → matrix → output patch → link → stagebox → amp one stage at a time, and prove the downstream half with a quiet signal-generator test before touching the master. Load `modules/console-troubleshooting/MODULE.md` (brand references inside, incl. Allen & Heath Qu-5/6/7 and Qu-MixPad)
 
 ### RF & wireless
 - Frequency coordination principles (InterModulation, Shure Wireless Workbench, Sennheiser WSM)
@@ -191,7 +191,7 @@ Specialist workflows live in `modules/`, one folder per tool. Load a module's `M
 | `modules/wireless-workbench/MODULE.md` | Shure Wireless Workbench, RF coordination on Shure systems, scan files, Spectrum Managers, mid-show Shure dropouts, Saudi CST frequency legality | Ready |
 | `modules/arraycalc/MODULE.md` | d&b ArrayCalc, designing a d&b PA ("design a PA for this room"), box count, trim, splay, SUB arrays, alignment, ArrayProcessing setup, headroom, rigging plots and load warnings | Ready |
 | `modules/r1/MODULE.md` | d&b R1, going online with d&b amps, amps not found, Remote IDs, firmware, System check / Array verification, AP slots and THC, d&b amp errors or mutes mid-show | Ready |
-| `modules/allen-heath-qu/MODULE.md` | Allen & Heath Qu-5/6/7 consoles, Qu-MixPad (connecting, desk not found), SLink/DX/Dante/USB I/O and output patch, SigGen tests, "signal but no sound" / no audio at the PA | Ready |
+| `modules/console-troubleshooting/MODULE.md` | No audio at the PA, "signal but no sound", dead outputs or mixes, remote app can't find the desk, stray tones; brand references incl. Allen & Heath Qu-5/6/7 and Qu-MixPad | Ready |
 
 Hand-offs: ArrayCalc designs the system, R1 deploys it and runs the show. PA design on non-d&b gear stays in this file.
 

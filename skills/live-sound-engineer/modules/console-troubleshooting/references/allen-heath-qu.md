@@ -1,6 +1,6 @@
-# Module: Allen & Heath Qu-5/6/7 and Qu-MixPad
+# Allen & Heath Qu-5/6/7 and Qu-MixPad
 
-Part of the live-sound-engineer skill. Load this module when the task involves a current-generation Allen & Heath Qu console (Qu-5/6/7, "D" = Dante) or the Qu-MixPad app: connecting MixPad, the desk not showing in the app, SLink/DX/Dante/USB I/O, output patching, the signal generator, or **"the link is up / there's signal, but the PA gets nothing"**.
+Reference for the console-troubleshooting module. Read when the desk is a current-generation Qu (Qu-5/6/7, "D" = Dante) or the job runs through Qu-MixPad. The generic elimination order and hard stops live in `modules/console-troubleshooting/MODULE.md`; this file maps each step onto Qu screens.
 
 Not the old Qu-16/24/32/Pac/SB: different app (Qu-Pad), different firmware line. Firmware V1.2 (Oct 2026) is current; check the user's version before quoting features.
 
@@ -18,22 +18,15 @@ Every model has the same 96 kHz XCVI engine: 38 inputs to mix (32 mono/linkable 
 - MixPad has **no I/O patch page**. Output patching is on the desk: **I/O → Outputs → SLink/Local/ME/USB/Dante**. A **hatched** output tile is assigned to a socket with no hardware behind it; a non-hatched SLink tile plus "DX" in the desk header means the expander's sockets are seen.
 - Useful MixPad pages: Routing → channel → **Main** tab (MainLR assign + level); Routing → MainLR → **Matrix** (sends, pre/post, levels); Processing → Mix, page the bank to reach the matrix masters; Setup → Audio → **SigGen**.
 
-## "SLink/DX is up but the PA gets nothing": elimination order
-
-Work in this order and say what each step rules out. Look first; don't change things on the way unless asked.
+## The elimination order on a Qu
 
 1. **Source channel.** Is the music on the channel you think? (Mac over USB-C = USB channel; an external interface may sit on a mic channel.) Check its mute, its fader, and its MainLR assign/level on Routing → Main. A fader at -inf looks exactly like "signal but no sound".
 2. **MainLR master.** Mute and fader. Matrix sends are normally **post**: after the master fader *and* mute, so a muted or -inf master kills every matrix.
 3. **Matrix sends** from MainLR: on, pre/post, level.
 4. **Matrix masters:** mute and fader for the matrices that feed the PA.
 5. **Output patch** (desk I/O screen): the PA matrices land on the SLink sockets the amps are actually cabled to. Don't "fix" it by patching MainLR straight to the outputs; it still passes through the master mute and bypasses the matrix gain structure.
-6. **Prove the downstream half without the master:** Setup → Audio → SigGen, **pink noise** around -40 dB, assigned to **one PA matrix only**, MainLR assign **off**. Hiss from the PA = desk-to-speaker path is good and the fault is upstream (steps 1–2). Silence = stagebox or later: link LED, cable in the expander's first DX port (not the cascade port), XLRs in the patched outputs, amp input routing and mutes (hand off to the R1 module for d&b amps).
+6. **Prove the downstream half without the master:** Setup → Audio → SigGen, **pink noise** around -40 dB, assigned to **one PA matrix only**, MainLR assign **off**. Hiss from the PA = desk-to-speaker path is good and the fault is upstream (steps 1–2). Silence = stagebox or later: link LED, cable in the expander's first DX port (not the cascade port), XLRs in the patched outputs, amp input routing and mutes (d&b amps: `modules/r1/MODULE.md`).
 7. **Clean up:** every SigGen assign off. Check SigGen isn't left assigned to MainLR; a forgotten tone there plays the moment the master is unmuted.
-
-## Hard stops
-
-- Never unmute a master with music playing and the fader up. Pull the fader to -inf, unmute, bring it up slowly.
-- Don't raise channel or master faders, or send the SigGen anywhere, while the master is live unless the user says so. Ask once, with what will come out of the PA.
 
 ## Driving MixPad with computer use (macOS)
 
