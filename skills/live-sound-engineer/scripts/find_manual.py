@@ -10,7 +10,7 @@ Usage:
 
 All terms must match (case-insensitive) somewhere in the entry.
 Searches the JSON inventory first, then every product .md file
-(the .md files cover more brands than the JSON — Meyer, Martin, Sennheiser).
+(the .md files cover more brands than the JSON — Meyer, Martin, RCF, Sennheiser).
 Prints matching table rows with their URLs, plus the file each came from.
 """
 import json

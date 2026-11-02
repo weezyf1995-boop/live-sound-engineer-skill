@@ -40,7 +40,7 @@ For anything **brand-specific** — firmware versions, specific console deep div
 `references/manuals/` holds a curated index of official manufacturer documentation URLs — user manuals, rigging manuals, reference manuals, quick start guides, datasheets, software downloads and release notes. URLs only, no PDFs; every link points at the manufacturer's own site. Last refreshed March 2026.
 
 **Coverage:**
-- **Loudspeakers:** d&b audiotechnik (SL, V, Y, J, CL, B and T series, D-series and installation amps, ArrayCalc), L-Acoustics (K1/K2/K3, Kara/Kiva, A, X, ARCS, Syva, KS/SB subs, LA amplified controllers, Soundvision), Martin Audio (MLA, Wavefront Precision WPC/WPL/WPM/WPS, CDD, O-Line, TORUS, SX subs, amps/processors, DISPLAY/VU-NET), Meyer Sound (LEOPARD, LYON, PANTHER, LINA, ULTRA-X/UP, LFC subs, GALAXY, GALILEO software)
+- **Loudspeakers:** d&b audiotechnik (SL, V, Y, J, CL, B and T series, D-series and installation amps, ArrayCalc), L-Acoustics (K1/K2/K3, Kara/Kiva, A, X, ARCS, Syva, KS/SB subs, LA amplified controllers, Soundvision), Martin Audio (MLA, Wavefront Precision WPC/WPL/WPM/WPS, CDD, O-Line, TORUS, SX subs, amps/processors, DISPLAY/VU-NET), Meyer Sound (LEOPARD, LYON, PANTHER, LINA, ULTRA-X/UP, LFC subs, GALAXY, GALILEO software), RCF (HDL 50-A/30-A/28-A/26-A/20-A/10-A/6-A line arrays, HDL 38-AS/18-AS/12-AS flown subs, SUB 8004/8006/8008/9004/9006/9007/9019/9029/705-AS II, NX 985-A/945-A, ART 945-A/935-A, TT 052-A, NX 15-SMA and TT 25-CXA wedges, RDNet; plus pre-alignment delay sheets and GLL files)
 - **Wireless:** Shure (Axient Digital receivers/transmitters/IEM accessories, ULX-D, QLX-D, PSM 1000/900/300/200, Wireless Workbench), Sennheiser (Digital 6000, Digital 9000, EW-D, IEM G4, WSM)
 - **Software:** d&b R1, Figure 53 QLab, Shure Wireless Workbench
 
@@ -55,7 +55,7 @@ For anything **brand-specific** — firmware versions, specific console deep div
    ```
    Terms are ANDed and case-insensitive. Match on model, series, brand, doc type or tag.
 2. If a hit exists, **fetch the PDF/page** with web_fetch and answer from the actual document — do not guess specs from memory when the manual is one call away. Quote the version and year so the user knows what you read.
-3. If the script returns nothing, the gear isn't indexed (consoles, DiGiCo, Avid, Allen & Heath, Yamaha, QSC, EV, RCF, Nexo, JBL are **not** in the directory). Web-search the manufacturer's documentation centre instead. The README in `references/manuals/README.md` lists each manufacturer's doc portal.
+3. If the script returns nothing, the gear isn't indexed (consoles, DiGiCo, Avid, Allen & Heath, Yamaha, QSC, EV, Nexo, JBL are **not** in the directory, nor are RCF's TT+ Audio GTX boxes, which sit behind RCF's dealer login). Web-search the manufacturer's documentation centre instead. The README in `references/manuals/README.md` lists each manufacturer's doc portal.
 4. Only open `references/manuals/master_inventory.md` (~450 lines) or a per-product `.md` directly if the script output isn't enough — e.g. the user wants everything available for a series. Never read the whole tree into context.
 
 **Caveats to pass on when relevant:** versions in the index may lag the manufacturer's site — for rigging or load-rating questions, tell the user to confirm they hold the current rigging manual before flying anything. Some software downloads sit behind dealer logins.

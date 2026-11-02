@@ -15,6 +15,7 @@ This repository contains curated links to official product documentation for pro
 - L-Acoustics (France)
 - Martin Audio (UK)
 - Meyer Sound (USA)
+- RCF (Italy)
 
 **Wireless Systems:**
 - Shure (USA)
@@ -86,7 +87,7 @@ Pro_Audio_Manuals/
 │   │   │   └── Amplifiers_Processors.md
 │   │   └── Display_Software/
 │   │       └── Display_Vu-Net.md
-│   └── Meyer_Sound/
+│   ├── Meyer_Sound/
 │       ├── LEOPARD/
 │       │   └── LEOPARD.md
 │       ├── LYON/
@@ -103,6 +104,15 @@ Pro_Audio_Manuals/
 │       │   └── ULTRA-X_UP_Series.md
 │       └── Software/
 │           └── GALILEO_Software.md
+│   └── RCF/
+│       ├── Line_Arrays/
+│       │   └── HDL_Series.md
+│       ├── Subwoofers/
+│       │   └── SUB_Series.md
+│       ├── Point_Source/
+│       │   └── NX_ART_TT_Series.md
+│       └── Software/
+│           └── RDNet.md
 ├── Wireless_Systems/
 │   ├── Shure/
 │   │   ├── Axient_Digital/
@@ -210,11 +220,11 @@ This directory is designed to be lightweight:
 ### Comprehensive Coverage
 
 **Loudspeakers:**
-- Line Arrays (SL-Series, K Series, MLA, Wavefront Precision, LEOPARD, PANTHER, etc.)
+- Line Arrays (SL-Series, K Series, MLA, Wavefront Precision, LEOPARD, PANTHER, RCF HDL, etc.)
 - Subwoofers (Cardioid, Bandpass, Front-loaded)
 - Point Source Speakers
 - Amplifiers and Processors
-- System Design Software (ArrayCalc, Soundvision, Display, Compass)
+- System Design Software (ArrayCalc, Soundvision, Display, Compass, RDNet)
 
 **Wireless Systems:**
 - Digital Wireless Microphones (Axient Digital, ULX-D, QLX-D, Digital 6000/9000)
@@ -229,6 +239,7 @@ All URLs are from official manufacturer sources:
 - l-acoustics.com (L-Acoustics)
 - martin-audio.com (Martin Audio)
 - meyersound.com / docs.meyersound.com (Meyer Sound)
+- rcf.it (RCF)
 - shure.com / pubs.shure.com (Shure)
 - sennheiser.com / docs.cloud.sennheiser.com (Sennheiser)
 
@@ -250,6 +261,7 @@ Where available, documents include:
    - L-Acoustics: https://www.l-acoustics.com/result-documentation-center/
    - Martin Audio: https://martin-audio.com/support/userguides
    - Meyer Sound: https://docs.meyersound.com/products
+   - RCF: https://www.rcf.it/en/downloads (or each product page's Downloads tab)
    - Shure: https://www.shure.com/en-US/docs
    - Sennheiser: https://www.sennheiser.com/documentation
    - Figure 53 (QLab): https://qlab.app/docs/
@@ -321,13 +333,14 @@ When adding new products, follow this format:
 | L-Acoustics | Loudspeakers | 30+ | 60+ |
 | Martin Audio | Loudspeakers | 20+ | 30+ |
 | Meyer Sound | Loudspeakers | 25+ | 50+ |
+| RCF | Loudspeakers | 27 | 90+ |
 | Shure | Wireless | 30+ | 50+ |
 | Sennheiser | Wireless | 20+ | 40+ |
 | d&b audiotechnik | Software | 4 | 4 |
 | Figure 53 | Software | 3 | 5 |
 | Shure | Software | 4 | 4 |
 
-**Total:** 56+ entries across 8 manufacturers/brands
+**Total:** 56+ entries across 9 manufacturers/brands
 
 ---
 
